@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/css/bootstrap-5.1.3-dist/js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <script src="/css/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="/css/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="/css/style2.css">
+</head>
+<title>Categorias</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div id="container-grid" class="posicionamento">
+        <a href="index.html">
+          <img id="logo" src="/img/logo1.png" alt="" width="160px" height="79px"
+            class="d-inline-block align-text-top navbar-brand">
+        </a>
+        <nav id="menu" class=" menu ">
+          <a href="categorias.html">Categorias</a>
+          <a href="">Jogos</a>
+          <a href="">Acessórios</a>
+
+          <a id="login" class="login" href="">Login/cadastre-se</a>
+
+
+        </nav>
+        <form id="input" class="d-flex">
+          <input class="form-control me-2" type="search" placeholder=" O que procura?" aria-label="Search">
+          <button id="searchbotao" class=" searchbotao btn btn-light" type="submit"> <img src="/img/lupa1.svg"
+              alt=""></button>
+        </form>
+        <a href="">
+          <img id="carrinho" src="/img/cart4.svg" alt="carrinho de compras" height="30px" width="30rem">
+        </a>
+
+        <a href="#" onclick=mostrarMenu()>
+          <button id="botao"><img src="/img/menub.svg" alt="" width="30px" height="30px"></button>
+        </a>
+      </div>
+    </nav>
+    <section id="sectionbanner" class="posicionamento">
+      <h1 class="posicionamento">Escolha sua plataforma favorita.</h1>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div id="setup" class="carousel-item active" data-bs-interval="10000">
+            <a href="#xbox"> <img src="/img/xbox.png" height="600px" class="d-block w-100 navbar-brand" alt="..."></a>
+          </div>
+          <div id="setup" class="carousel-item" data-bs-interval="2000">
+            <a href="#ps5"> <img src="/img/ps.png" height="600px" class="d-block w-100 navbar-brand" alt="..."></a>
+          </div>
+          <div id="setup" class="carousel-item">
+            <a href="#switch"> <img src="/img/nintendo.png" height="600px" class="d-block w-100 navbar-brand"
+                alt="..."></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="consoles" class="consoles">
+      <h1>O melhor preço!</h1>
+      <div>
+        <img id="xbox" class="img nav-brand" src="/img/bannerXboxSeriesX.jpg" alt="">
+      </div>
+      <div>
+        <img id="ps5" class="img nav-brand" src="/img/bannerps5.jpg" alt="">
+      </div>
+      <div >
+        <img id="switch" class="img nav-brand" src="/img/nintendoswitch.jpg" alt="">
+      </div>
+     
+   
+    <footer id="footer">
+      <div class="container footer">
+        <div class=" redesS"> <a href="https://twitter.com/" target="_blank"><img src="/img/twitter.svg" alt="">twitter</a></div>
+        <div class="redesS"> <a href="https://www.facebook.com/" target="_blank"><img src="/face.svg" alt="">Facebook</a> </div>
+        <div class="redesS"> <a href="https://www.instagram.com/" target="_blank"><img src="/img/instagram.svg" alt="">Instagram</a> </div>
+        <div class="redesS"> <a href="mailto:https://outlook.live.com/" target="_blank"><img src="/img/envelope.svg" alt="">E-mail</a> </div>
+      </div>
+    </footer>
+  </section>
+
+
+</body>
+
+</html>
