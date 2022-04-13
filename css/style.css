@@ -54,7 +54,7 @@ header{
 }
 
 #setup a {
-   /* background:fixed; */
+
    height: 600px;
    min-height: 600px;
 }
@@ -91,7 +91,7 @@ h1{
     flex-wrap: wrap;
     width: 100vw; 
 }
-#login{
+.login{
     display: flex;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -148,7 +148,7 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     transition: 1000ms;
 }
-@media (max-width: 1290px){
+@media (max-width: 1350px){
     *{
         margin: 0;
         padding: 0;
@@ -157,7 +157,7 @@ h1{
 
     .menu a {
         text-decoration:none;
-        color:black;
+        color: black;
         font-family: 'roboto' , sans-serif;
         font-size: 0.8rem;
         font-weight:700;
@@ -165,7 +165,7 @@ h1{
         text-transform: uppercase;
         padding: 10px;
     }
-    #login{
+    #menu .login{
         display: flex;
         text-decoration: none;
         font-family:'roboto' , sans-serif;
@@ -177,7 +177,7 @@ h1{
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
     *{
         margin: 0;
         padding: 0;
@@ -185,43 +185,65 @@ h1{
     }
     #container-grid{
         min-width: 100vw;
+        position: relative;
     }
    
-    #sectionBanner{
-        position: relative;
-    }   
-    #myCarousel{
-        position: relative;
-    }
+
     #botao{
         display: flex;
         padding: 10px;
-        margin-left: 200px;
-        position: relative;
+        margin: auto;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        border-radius: 30px;
+      
         
+    }
+    header nav .navbar {
+        position: relative;
     }
 
     .menu{
+        margin: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border-left: 1px solid black;
+        border-right:1px solid black;
+        border-bottom:1px solid black;
         position: absolute;
         display:none;
         flex-direction: column;
         text-align: center;
-        padding: 5px;
-        width: 200px;
-        height: 200px;
-        top:0px;
-        right: 60px;
+        padding: 20px 20px;
+        width: 150px;
+        height: 300px;
+        top: 100px;
+        right: 0px;
         background-color: white;
+        z-index: 1;
+    
 
     }
     .menu a {
         text-decoration:none;
-        color:black;
+        color: black;
         font-family: 'roboto' , sans-serif;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+        font-weight:700;
+        margin: 0.2rem;
+        padding: 1rem;
+        text-transform: uppercase;
+    }
+    #menu .login{
+        display: flex;
+        text-decoration:none;
+        color: black;
+        font-family: 'roboto' , sans-serif;
+        font-size: 0.8rem;
         font-weight:700;
         margin: 0rem;
         text-transform: uppercase;
+        overflow:inherit;
     }
 
     #input .form-control{
@@ -269,9 +291,38 @@ h1{
 
     
 }
-@media (max-width:510px){
+
+@media (max-width:780px){
     #container-grid{
         max-width: 100vw;
+    }
+
+    #input .form-control{
+        display: none;
+        
+    }
+    #input .botao{
+        display: none;
+       
+    }
+    #input{
+        display: none;
+    }
+    #botao{
+        display: flex;
+        padding: 10px;
+      
+    }
+    .searchbotao{
+        display: none;
+    }
+}
+
+
+@media (max-width:380px){
+    #container-grid{
+        max-width: 100vw;
+        min-width: 380px;
     }
 
     #input .form-control{

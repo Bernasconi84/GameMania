@@ -12,7 +12,8 @@
   <title>Game Mania</title>
   <link rel="stylesheet" href="/css/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="/css/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css">
-</head>
+  <script src="/css/bootstrap-5.1.3-dist/js/jquery-3.6.0.min.js"></script>
+</head> 
 
 <body>
   <header>
@@ -24,10 +25,10 @@
         </a>
         <nav id="menu" class=" menu ">
           <a href="categorias.html">Categorias</a>
-          <a href="">Jogos</a>
-          <a href="">Acessórios</a>
+          <a href="jogos.html">Jogos</a>
+         
 
-          <a id="login" class="login" href="">Login/cadastre-se</a>
+          <a  class="login" href="login.html">Login/cadastre-se</a>
 
 
         </nav>
@@ -45,6 +46,7 @@
         </a>
       </div>
     </nav>
+    
   </header>
   </div>
   <section id="sectionbanner" class="posicionamento">
@@ -126,24 +128,7 @@
   </footer>
   <script src="/css/jquery/jquery-3.6.0.min.js"></script>
   <script src="/css/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-  <script>
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 5,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 5
-        }
-      }
-    })
-  </script>
+  <script src="/js/script.js"></script>
 
   <script>
     let menu = document.getElementById("menu")

@@ -1,0 +1,18 @@
+
+.xbox{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgb(12, 161, 12);
+}
+
+.ps5{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: black;
+}
+
+.pc{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #8e2de2, #4a00e0);
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -26,10 +26,10 @@
         </a>
         <nav id="menu" class=" menu ">
           <a href="categorias.html">Categorias</a>
-          <a href="">Jogos</a>
-          <a href="">Acessórios</a>
+          <a href="jogos.html">Jogos</a>
+         
 
-          <a id="login" class="login" href="">Login/cadastre-se</a>
+          <a id="login" class="login" href="login.html" target="_blank">Login/cadastre-se</a>
 
 
         </nav>
@@ -96,7 +96,16 @@
       </div>
     </footer>
   </section>
-
+  <script>
+    let menu = document.getElementById("menu")
+    function mostrarMenu() {
+      if (menu.style.display == "none") {
+        menu.style.display = "flex";
+      } else {
+        menu.style.display = "none"
+      }
+    }
+  </script>
 
 </body>
 

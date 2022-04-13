@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <script src="/css/bootstrap-5.1.3-dist/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="/css/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css">
+    <scrip src="https://kit.fontawesome.com/1d8089c63b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? family= Noto+Sans:wght@400;900 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <div id="container-grid" class="posicionamento">
+            <a href="index.html">
+              <img id="logo" src="/img/logo1.png" alt="" width="160px" height="79px"
+                class="d-inline-block align-text-top navbar-brand">
+            </a>
+            <nav id="menu" class=" menu ">
+              <a href="categorias.html">Consoles</a>
+              <a href="jogos.html">Jogos</a>
+             
+    
+              <a id="login" class="login" href="login.html" target="_blank">Login/cadastre-se</a>
+    
+    
+            </nav>
+            <form id="input" class="d-flex">
+              <input class="form-control me-2" type="search" placeholder=" O que procura?" aria-label="Search">
+              <button id="searchbotao" class=" searchbotao btn btn-light" type="submit"> <img src="/img/lupa1.svg"
+                  alt=""></button>
+            </form>
+            <a href="">
+              <img id="carrinho" src="/img/cart4.svg" alt="carrinho de compras" height="30px" width="30rem">
+            </a>
+    
+            <a href="#" onclick=mostrarMenu()>
+              <button id="botao"><img src="/img/menub.svg" alt="" width="30px" height="30px"></button>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <main class="container">
+          <h2>Login</h2>
+          <form action="">
+              <div class="input-field">
+                  <input type="text" name="username" id="username" placeholder="Entre com seu e-mail">
+                  <div class="underline"></div>
+              </div>
+              <div class="input-field">
+                  <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                  <div class="underline"></div>
+              </div>
+              <input onclick="enviar()" type="submit" value="continue"></input>
+          </form>
+
+          <div class="footer">
+              <span>ou conecte-se com redes sociais</span>
+              <div class="social-fields">
+                  <div class="social-field twitter">
+                      <a href="https://twitter.com/" target="_blank">
+                        <img src="/img/twitter.svg" alt="">
+                        inscreva-se com Twitter
+                      </a>
+                  </div>
+                  <div class="social-field facebook">
+                      <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/img/facebook.svg" alt="">
+                        inscreva-se com Facebook
+                      </a>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </main>
+      <script src="/js/script.js"></script>
+      <script src="/css/jquery/jquery-3.6.0.min.js"></script>
+  <script src="/css/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+</body>
+</html>
